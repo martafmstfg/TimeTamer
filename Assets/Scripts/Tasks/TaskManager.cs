@@ -23,7 +23,10 @@ public class TaskManager : MonoBehaviour {
     public List<Task> tasks; //Lista de tareas
     public string taskDataFileName = "tasks.json"; //Fichero json con las tareas
 
-    public static TaskManager instance { set; get; } //Singleton
+    public static TaskManager instance {
+        private set;
+        get;
+    } //Singleton
 
     public GameObject panelInfo; //GUI mostrar informacion de una tarea
     public GameObject descripcionGO;
@@ -47,13 +50,13 @@ public class TaskManager : MonoBehaviour {
     }
 
     public void Awake() {
-        if (instance == null) {
-            instance = this;
-        }
-        else if (instance != this) {
+        //Comprobar si ya hay algun otro objeto con el script TaskManager
+        TaskManager[] instancias = FindObjectsOfType<TaskManager >();
+        if (instancias.Length > 1) {
             Destroy(gameObject);
         }
-        
+        else instance = this;
+
         LoadTasksData(); //Al abrirse, carga los datos del fichero JSON de tareas
     }
 
@@ -70,7 +73,7 @@ public class TaskManager : MonoBehaviour {
             tasks = loadedData.tasks;
         }
         else {
-            throw new FileNotFoundException("El fichero no existe");
+            //throw new FileNotFoundException("El fichero no existe");
         }       
     }
 
