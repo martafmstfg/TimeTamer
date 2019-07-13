@@ -1,0 +1,15 @@
+{
+    "name": "NavesAssembly",
+    "references": [
+        "ScriptsAssembly",
+        "Unity.Entities",
+        "Unity.Mathematics",
+        "Unity.Transforms",
+        "Unity.Rendering.Hybrid",
+        "SushiAssembly"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

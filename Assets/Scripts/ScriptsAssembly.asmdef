@@ -1,0 +1,14 @@
+{
+    "name": "ScriptsAssembly",
+    "references": [
+        "Unity.Entities",
+        "Unity.Mathematics",
+        "EstadisticasDB",
+        "Unity.TextMeshPro",
+        "Zenject"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

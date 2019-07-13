@@ -1,0 +1,10 @@
+{
+    "name": "NovaAssembly",
+    "references": [
+        "ScriptsAssembly"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

@@ -1,0 +1,94 @@
+﻿{
+    "items": [
+
+        {
+            "nombre": "Pantalon Negro",
+            "categoria": "largo",
+            "precio": 0,
+            "icono": "largoNegro",
+            "mesh": "mesh",
+            "textura": "largoNegro",
+            "desbloqueado": true
+        },
+
+        {
+            "nombre": "Shorts Rosas",
+            "categoria": "corto",
+            "precio": 0,
+            "icono": "shortsRosas",
+            "mesh": "mesh",
+            "textura": "shortsRosas",
+            "desbloqueado": true
+        },
+
+        {
+            "nombre": "Pantalón Chandal",
+            "categoria": "largo",
+            "precio": 15,
+            "icono": "pantalonChandal",
+            "mesh": "mesh",
+            "textura": "pantalonChandal",
+            "desbloqueado": false
+        },
+
+        {
+            "nombre": "Shorts Vaqueros",
+            "categoria": "corto",
+            "precio": 25,
+            "icono": "shortsVaqueros",
+            "mesh": "mesh",
+            "textura": "shortsVaqueros",
+            "desbloqueado": false
+        },
+
+
+        {
+            "nombre": "Shorts Cammo",
+            "categoria": "corto",
+            "precio": 15,
+            "icono": "shortsCammo",
+            "mesh": "mesh",
+            "textura": "shortsCammo",
+            "desbloqueado": false
+        },
+
+        {
+            "nombre": "Shorts Estrellas",
+            "categoria": "corto",
+            "precio": 35,
+            "icono": "shortsEstrellas",
+            "mesh": "mesh",
+            "textura": "shortsEstrellas",
+            "desbloqueado": false
+        },
+
+        {
+            "nombre": "Pantalon Vaqueros",
+            "categoria": "largo",
+            "precio": 40,
+            "icono": "largoVaquero",
+            "mesh": "mesh",
+            "textura": "largoVaquero",
+            "desbloqueado": false
+        },
+
+        {
+            "nombre": "Falda Corazones",
+            "categoria": "falda2",
+            "precio": 20,
+            "icono": "faldaCorazones",
+            "mesh": "mesh",
+            "textura": "faldaCorazones",
+            "desbloqueado": false
+        },
+
+        {
+            "nombre": "Falda Cuadros",
+            "categoria": "falda1",
+            "precio": 35,
+            "icono": "faldaCuadros",
+            "mesh": "mesh",
+            "textura": "faldaCuadros",
+            "desbloqueado": false
+        }
+    ]}

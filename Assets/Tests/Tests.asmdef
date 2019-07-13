@@ -1,0 +1,24 @@
+{
+    "name": "Tests",
+    "references": [
+        "Unity.Entities",
+        "Unity.Entities.Tests",
+        "ScriptsAssembly",
+        "Zenject-TestFramework",
+        "Zenject",
+        "NovaAssembly",
+        "SushiAssembly",
+        "Unity.Transforms",
+        "Unity.Mathematics",
+        "NavesAssembly",
+        "EstadisticasDB"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

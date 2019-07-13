@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1397684598909482}
+  m_IsPrefabAsset: 1
+--- !u!1 &1397684598909482
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4529467050899700}
+  - component: {fileID: 114436762806167430}
+  - component: {fileID: 114410989577339966}
+  m_Layer: 0
+  m_Name: DiccionarioTexturas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4529467050899700
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1397684598909482}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.5442215, y: 1.0259359, z: 47.10905}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114410989577339966
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1397684598909482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0166d8ff8d905b048b2448179e1f5d11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _components:
+  - {fileID: 114436762806167430}
+  _identifier: 
+  _useSceneContext: 0
+  _context: {fileID: 0}
+  _bindType: 0
+--- !u!114 &114436762806167430
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1397684598909482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3aad8d5e0ebf7a41ace45054e1385cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texturas:
+    reorderableList:
+      canAdd: 1
+      canRemove: 1
+      draggable: 1
+      expandable: 1
+      multipleSelection: 1
+      isExpanded: 1
+      label:
+        m_Text: Keys
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 18
+      footerHeight: 13
+      slideEasing: 0.15
+      verticalSpacing: 2
+      showDefaultBackground: 1
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 1
+    _keyValues:
+    - camisaCorbata
+    - camisaCorbataRoja
+    - camisetaAzul
+    - camisetaRoja
+    - camisetaMusica
+    - camisetaRayas
+    - camisetaCool
+    - chaquetaCuero
+    - chaquetaVerde
+    - jerseyRayas
+    - faldaCorazones
+    - faldaCuadros
+    - pantalonChandal
+    - largoNegro
+    - largoVaquero
+    - shortsVaqueros
+    - shortsCammo
+    - shortsEstrellas
+    - shortsRosas
+    - zapatillas
+    - ojo1_base
+    - ojo2_base
+    - ojo3_base
+    - ojo4_base
+    - ojo5_base
+    - pupila1
+    - pupila4
+    - pupila5
+    - botas
+    - pupila3
+    _keys:
+    - camisaCorbata
+    - camisaCorbataRoja
+    - camisetaAzul
+    - camisetaRoja
+    - camisetaMusica
+    - camisetaRayas
+    - camisetaCool
+    - chaquetaCuero
+    - chaquetaVerde
+    - jerseyRayas
+    - faldaCorazones
+    - faldaCuadros
+    - pantalonChandal
+    - largoNegro
+    - largoVaquero
+    - shortsVaqueros
+    - shortsCammo
+    - shortsEstrellas
+    - shortsRosas
+    - zapatillas
+    - ojo1_base
+    - ojo2_base
+    - ojo3_base
+    - ojo4_base
+    - ojo5_base
+    - pupila1
+    - pupila4
+    - pupila5
+    - botas
+    - pupila3
+    _values:
+    - {fileID: 2800000, guid: e490bd4a876fc29418c22d9643109a18, type: 3}
+    - {fileID: 2800000, guid: 9904fad0ddbd8614fbce2d3072ff5b3b, type: 3}
+    - {fileID: 2800000, guid: 9be8482f3f68ef840abf586c3add2eb4, type: 3}
+    - {fileID: 2800000, guid: 87bf400101107004cb898681b5a3eae3, type: 3}
+    - {fileID: 2800000, guid: 429d6592b85905f4cace6a3cbbddd1f4, type: 3}
+    - {fileID: 2800000, guid: f270013b428e248439593c4434e6ed38, type: 3}
+    - {fileID: 2800000, guid: a168730ad0e253d42ae4e09081582a4c, type: 3}
+    - {fileID: 2800000, guid: b4f0d9cd4183ff445be5c2ca938f0c10, type: 3}
+    - {fileID: 2800000, guid: c8ee898fd63b1db4ca192d1da8b1ff71, type: 3}
+    - {fileID: 2800000, guid: 45978e255d81b0447b5c0cfb924c9366, type: 3}
+    - {fileID: 2800000, guid: b0fb37d3e0266fa46946a3bf30995157, type: 3}
+    - {fileID: 2800000, guid: 06bcff31980194d44aae2b66e8e49dee, type: 3}
+    - {fileID: 2800000, guid: 91435744150b2af44877d9776234b3b1, type: 3}
+    - {fileID: 2800000, guid: af15511a1e297da4eaf876b428c6642f, type: 3}
+    - {fileID: 2800000, guid: b5d2a3fc92fbdaf40a96088db88ad9a5, type: 3}
+    - {fileID: 2800000, guid: 418bbc4f5fb792e4986fb2d61ebfa332, type: 3}
+    - {fileID: 2800000, guid: 9e268a4453e8d9748817ee240fa8e0b6, type: 3}
+    - {fileID: 2800000, guid: e4a91e3addbb37b4d8ee9bb342578305, type: 3}
+    - {fileID: 2800000, guid: a5fda8bc2c4d5324ab53a764b4d73c3e, type: 3}
+    - {fileID: 2800000, guid: c12e181b32bbb22488ef165409f54f20, type: 3}
+    - {fileID: 2800000, guid: 4e102058da67d9349866ef441fa7a738, type: 3}
+    - {fileID: 2800000, guid: 41347a25639f5ad4bb24f45a3806140a, type: 3}
+    - {fileID: 2800000, guid: f02cc5399a81f2448aafbcb3588b4608, type: 3}
+    - {fileID: 2800000, guid: 87843825aa5f96045a0095883f75b5b6, type: 3}
+    - {fileID: 2800000, guid: dc0531d840d57c8489fdb76cdd6ceba4, type: 3}
+    - {fileID: 2800000, guid: 98fbff779556c2842a3069d892ba4711, type: 3}
+    - {fileID: 2800000, guid: 5ebfe0c8c4d776c43a9b448c4b446fbb, type: 3}
+    - {fileID: 2800000, guid: 26457179ad4159b49b272a5b18ab0a72, type: 3}
+    - {fileID: 2800000, guid: f174cd70fc88cc24293b36ef4a0a927d, type: 3}
+    - {fileID: 2800000, guid: 8212cccd944aae341bfabb06dfa13c9c, type: 3}

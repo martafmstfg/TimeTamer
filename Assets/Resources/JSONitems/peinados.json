@@ -1,0 +1,67 @@
+{
+    "items": [
+
+        {
+            "nombre": "Calvo",
+            "precio": 0,
+            "icono": "calvo",
+            "mesh": "calvo",
+            "textura": "",
+            "desbloqueado": true
+        },
+
+        {
+            "nombre": "Peinado Corto 2",
+            "precio": 0,
+            "icono": "peinadoCorto2",
+            "mesh": "peinadoCorto2",
+            "textura": "",
+            "desbloqueado": true
+        },
+
+        {
+            "nombre": "Peinado Largo 1",
+            "precio": 0,
+            "icono": "peinadoLargo1",
+            "mesh": "peinadoLargo1",
+            "textura": "",
+            "desbloqueado": true
+        },
+
+        {
+            "nombre": "Peinado Corto 1",
+            "precio": 15,
+            "icono": "peinadoCorto1",
+            "mesh": "peinadoCorto1",
+            "textura": "",
+            "desbloqueado": false
+        },
+
+        {
+            "nombre": "Peinado Corto 3",
+            "precio": 20,
+            "icono": "peinadoCorto3",
+            "mesh": "peinadoCorto3",
+            "textura": "",
+            "desbloqueado": false
+        },
+
+
+        {
+            "nombre": "Peinado Largo 2",
+            "precio": 15,
+            "icono": "peinadoLargo2",
+            "mesh": "peinadoLargo2",
+            "textura": "",
+            "desbloqueado": false
+        },
+
+        {
+            "nombre": "Peinado Largo 3",
+            "precio": 20,
+            "icono": "peinadoLargo3",
+            "mesh": "peinadoLargo3",
+            "textura": "",
+            "desbloqueado": false
+        }
+    ]}

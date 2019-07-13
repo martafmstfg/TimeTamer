@@ -1,0 +1,48 @@
+{
+    "items": [
+        {
+            "nombre": "Ojos 1",
+            "precio": 0,
+            "icono": "ojo1",
+            "mesh": "ojo1_base",
+            "textura": "pupila1",
+            "desbloqueado": true
+        },
+
+        {
+            "nombre": "Ojos 2",
+            "precio": 0,
+            "icono": "ojo2",
+            "mesh": "ojo2_base",
+            "textura": "pupila1",
+            "desbloqueado": true
+        },
+
+        {
+            "nombre": "Ojos 3",
+            "precio": 10,
+            "icono": "ojo3",
+            "mesh": "ojo3_base",
+            "textura": "pupila3",
+            "desbloqueado": false
+        },
+
+        {
+            "nombre": "Ojos 4",
+            "precio": 10,
+            "icono": "ojo4",
+            "mesh": "ojo4_base",
+            "textura": "pupila4",
+            "desbloqueado": false
+        },
+
+        {
+            "nombre": "Ojos 5",
+            "precio": 10,
+            "icono": "ojo5",
+            "mesh": "ojo5_base",
+            "textura": "pupila5",
+            "desbloqueado": false
+        }
+
+    ]}

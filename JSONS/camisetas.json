@@ -1,0 +1,103 @@
+﻿{
+    "items": [
+
+        {
+            "nombre": "Camiseta Azul",
+            "categoria": "camiseta",
+            "precio": 0,
+            "icono": "camisetaAzul",
+            "mesh": "mesh",
+            "textura": "camisetaAzul",
+            "desbloqueado": true
+        },
+
+        {
+            "nombre": "Camiseta Roja",
+            "categoria": "camiseta",
+            "precio": 0,
+            "icono": "camisetaRoja",
+            "mesh": "mesh",
+            "textura": "camisetaRoja",
+            "desbloqueado": true
+        },
+
+        {
+            "nombre": "Camiseta Rayas",
+            "categoria": "camiseta",
+            "precio": 15,
+            "icono": "camisetaRayas",
+            "mesh": "mesh",
+            "textura": "camisetaRayas",
+            "desbloqueado": false
+        },
+
+        {
+            "nombre": "Camiseta Cool",
+            "categoria": "camiseta",
+            "precio": 15,
+            "icono": "camisetaCool",
+            "mesh": "mesh",
+            "textura": "camisetaCool",
+            "desbloqueado": false
+        },
+
+        {
+            "nombre": "Camiseta Música",
+            "categoria": "camiseta",
+            "precio": 15,
+            "icono": "camisetaMusica",
+            "mesh": "mesh",
+            "textura": "camisetaMusica",
+            "desbloqueado": false
+        },
+
+        {
+            "nombre": "Camisa Elegante",
+            "categoria": "camisa",
+            "precio": 25,
+            "icono": "camisaCorbata",
+            "mesh": "mesh",
+            "textura": "camisaCorbata",
+            "desbloqueado": false
+        },
+
+        {
+            "nombre": "Camisa BJA",
+            "categoria": "camisa",
+            "precio": 25,
+            "icono": "camisaCorbataRoja",
+            "mesh": "mesh",
+            "textura": "camisaCorbataRoja",
+            "desbloqueado": false
+        },
+
+        {
+            "nombre": "Chaqueta Rockera",
+            "categoria": "camisa",
+            "precio": 40,
+            "icono": "chaquetaCuero",
+            "mesh": "mesh",
+            "textura": "chaquetaCuero",
+            "desbloqueado": false
+        },
+
+        {
+            "nombre": "Chaqueta Verde",
+            "categoria": "jersey",
+            "precio": 40,
+            "icono": "chaquetaVerde",
+            "mesh": "mesh",
+            "textura": "chaquetaVerde",
+            "desbloqueado": false
+        },
+
+        {
+            "nombre": "Jersey Rayas",
+            "categoria": "jersey",
+            "precio": 35,
+            "icono": "jerseyRayas",
+            "mesh": "mesh",
+            "textura": "jerseyRayas",
+            "desbloqueado": false
+        }
+    ]}

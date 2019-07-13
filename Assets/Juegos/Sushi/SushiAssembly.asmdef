@@ -1,0 +1,14 @@
+{
+    "name": "SushiAssembly",
+    "references": [
+        "ScriptsAssembly",
+        "Unity.Entities",
+        "Unity.Mathematics",
+        "Unity.Transforms",
+        "Unity.Rendering.Hybrid"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

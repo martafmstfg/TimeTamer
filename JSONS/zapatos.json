@@ -1,0 +1,22 @@
+﻿{
+    "items": [
+        {
+            "nombre": "Zapatillas",
+            "categoria": "bajos",
+            "precio": 0,
+            "icono": "zapatillas",
+            "mesh": "mesh",
+            "textura": "zapatillas",
+            "desbloqueado": true
+        },
+
+        {
+            "nombre": "Botas",
+            "categoria": "altos",
+            "precio": 35,
+            "icono": "botas",
+            "mesh": "mesh",
+            "textura": "botas",
+            "desbloqueado": false
+        }
+    ]}
