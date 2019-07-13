@@ -6,7 +6,7 @@ using Unity.Entities;
 using UnityEngine;
 using Unity.Jobs;
 
-[DisableAutoCreation]
+//[DisableAutoCreation]
 public class ComprobarLogroSystem : ComponentSystem {
        
     ComponentGroup m_Logros;
@@ -39,7 +39,9 @@ public class ComprobarLogroSystem : ComponentSystem {
 
                 //Mostrar el pop-up de logro completado
                 LogrosManager.PopUpLogroCompletado(componenteAux.id, componenteAux.nivel, componenteAux.recompensaBase * componenteAux.nivel);
-            }           
+            }
+
+            EntityManager.RemoveComponent(logros[i], typeof(ComprobarLogroComponent));
             
         }
     }    

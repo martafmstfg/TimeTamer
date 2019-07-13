@@ -91,10 +91,10 @@ public static class LogrosManager {
         //Agregarle el componente para que el sistema la procese
         entityManager.AddComponent(logroComprobar, ComponentType.Create<ComprobarLogroComponent>());        
 
-        cls.Update(); //Ejecutar el ComprobarLogroSystem
+        //cls.Update(); //Ejecutar el ComprobarLogroSystem
          
         //Una vez se ha comprobado este logro, se le quita el componente
-        entityManager.RemoveComponent<ComprobarLogroComponent>(logroComprobar);
+        //entityManager.RemoveComponent<ComprobarLogroComponent>(logroComprobar);
     }
     
     public static List<Entity> GetListaEntidades () {
